@@ -27,10 +27,7 @@ ul
 	justify-content: space-between;
 	list-style-type: none;
 }
-li
-{
-  justify-content: space-between;
-}
+
 section
 {
 	display: flex;
