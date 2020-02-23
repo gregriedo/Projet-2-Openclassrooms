@@ -27,6 +27,10 @@ ul
 	justify-content: space-between;
 	list-style-type: none;
 }
+li
+{
+  justify-content: space-between;
+}
 section
 {
 	display: flex;
@@ -46,7 +50,6 @@ section
 {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: space-between;
 	width: 70%;
 	margin: auto;
