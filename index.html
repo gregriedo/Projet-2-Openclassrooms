@@ -12,35 +12,35 @@
 	</head>
 
 	<body>
-		<div id="bloc_page"><!-- Bloc permettant de mettre en forme la page -->
+		<div class="container"><!-- Bloc permettant de mettre en forme la page -->
 
 			<!-- Partie de gauche -->
 			<div class="presentation">
-
-				<img src="images/photo_profil.jpg" class="photo_profil" alt="Photo de Profil"/></aside>
-
-			<div class="contact">
-				<h3>CONTACT</h3>
-					<ul>
-						<li>Adresse</li>
-						<li>120 chemin des hérissons 01280 Prévessin-Möens</li>
-						<br />
-						<li>Téléphone</li>
-						<li>0630053391</li>
-						<br />
-						<li>E-mail</li>
-						<li><a href="mailto:gregory.riedo@gmail.com">gregory.riedo@gmail.com</a></li>
-						<br />
-						<li>Site web</li>
-						<li><a href="https://github.com/gregriedo">www.gregriedo.com</a></li>
-						<br />
-						<li>Skype</li>
-						<li>@greg</li>
-					 </ul>
+				<div class="image">
+					<img src="images/photo_profil.jpg" class="photo_profil" alt="Photo de Profil"/>
 				</div>
+				<div class="contact">
+					<h3 class="title-left">CONTACT</h3>
+						<ul>
+							<li>Adresse</li>
+							<li>120 chemin des hérissons 01280 Prévessin-Möens</li>
+							<br />
+							<li>Téléphone</li>
+							<li>0630053391</li>
+							<br />
+							<li>E-mail</li>
+							<li><a href="mailto:gregory.riedo@gmail.com">gregory.riedo@gmail.com</a></li>
+							<br />
+							<li>Site web</li>
+							<li><a href="https://github.com/gregriedo">www.gregriedo.com</a></li>
+							<br />
+							<li>Skype</li>
+							<li>@greg</li>
+						 </ul>
+					</div>
 
 			  <div class="a_propos">
-					<h3>A PROPOS DE MOI</h3>
+					<h3 class="title-left">A PROPOS DE MOI</h3>
 						<p>
 							De nature curieux et passionné de voyage j'ai visité plusieurs capitales européennes ainsi que l'Australie, l'Asie du Sud-Est, les Antilles françaises.
 							Ayant un intérêt pour l'informatique j'ai décidé de me former en tant que développeur Web afin de me permettre de voyager tout en proposant mes talents dans le domaine du Web et ainsi allier deux passions.
@@ -49,7 +49,7 @@
 
 
 			 <div class="loisirs">
-				 <h3>LOISIRS</h3>
+				 <h3 class="title-left">LOISIRS</h3>
 				 	<div class="logos">
 						<i class="fas fa-laptop-code fa-2x"></i>
 						<i class="fas fa-plane fa-2x"></i>
@@ -64,41 +64,40 @@
 			<div class="description">
 				<header>
 					<h1><span>Grégory</span> Riedo</h1>
-					<h4><em>Dével</em>oppeur Web freelance</h4>
+					<p class="slogan"><span class="dev">Dével</span>oppeur Web freelance</p>
+					<div class="surline-title"></div>
 				</header>
 				<section>
 					<div class="formation">
 						<h2 class="title-section"><i class="fas fa-graduation-cap" id="logo"></i>FORMATION</h2>
 						<div class="surline"></div>
-						<article class="bloc">
-						<div class="left">
-							<p>2020
+						<article class="bloc container">
+							<div class="left">
+								<p>2020
+								</p>
+
+							</div>
+							<div class="right">
+								<p>OPENCLASSROOMS<br /> Développeur Web <br />Connaissance dans le langage HTML5 CSS3</p>
+							</div>
+						</article>
+						<article class="bloc container">
+							<div class="left">
+								<p>2004-2007</p>
+							</div>
+							<div class="right">
+								<p>Université Lyon 2<br />
+									Licence en Histoire de l'art
 							</p>
-
-						</div>
-						<div class="right">
-							<p>OPENCLASSROOMS<br /> Développeur Web <br />Connaissance dans le langage HTML5 CSS3</p>
-						</div>
-
+							</div>
 						</article>
-						<article class="bloc">
-						<div class="left">
-							<p>2004-2007</p>
-						</div>
-						<div class="right">
-							<p>Université Lyon 2<br />
-								Licence en Histoire de l'art
-						</p> <br />
-						</div>
-						</article>
-
 					</div>
 				 </section>
 				 <section>
 					 <div class="experience">
 					  <h2 class="title-section"><i class="fas fa-briefcase" id="logo"></i>EXPERIENCE PROFESSIONELLE</h2>
 						<div class="surline"></div>
-				   		<article class="bloc">
+				   		<article class="bloc container">
 						  	<div class="left">
 							 		<p>2019<br />
 										Thoiry
@@ -110,7 +109,7 @@
 									</p>
 						  	</div>
 							</article>
-							<article class="bloc">
+							<article class="bloc container">
 						  	<div class="left">
 							 		<p>2010-2016<br />
 								 		St Genis Pouilly
@@ -130,8 +129,8 @@
 						<div class="recommandations">
 							<h2 class="title-section"><i class="fas fa-pencil-alt" id="logo"></i>RECOMMANDATIONS</h2>
 							<div class="surline"></div>
-						 		<section>
-							 		<div class="left">
+						 		<section class="container">
+							 		<div class="recom">
 										<p>
 											<strong>Richard Ngu Leubou</strong><br />
 											Mentor chez OPENCLASSROOMS<br />
@@ -139,7 +138,7 @@
 											Email : godleubourichard@yahoo.fr<br />
 										</p>
 									</div>
-									<div class="right">
+									<div class="recom">
 										<p>
 											<strong>Menting Claudia</strong><br />
 											Developpeur Freelance<br />
