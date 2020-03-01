@@ -10,57 +10,119 @@ body
 }
 
 h3
-	{
-		margin: auto;
-		background-color: rgb(64,64,64);
-		color: rgb(254,202,7);
+{
+		background-color: #151515;
+		color: #FFBF00;
 		text-align: center;
-	}
-span
-{
-	color: rgb(254,202,7);
-}
-ul
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	list-style-type: none;
-}
-section
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 }
 
+ul
+{
+		list-style-type: none;
+}
+
+li
+{
+	justify-content: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
 
 .presentation
 {
 	display: flex;
 	flex-direction: column;
 	width: 30%;
-	background-color: rgb(254,202,7);
+	background-color: #FFBF00;
 }
-.description
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	width: 70%;
-	margin: auto;
-
-}
-
 
 .photo_profil
 {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
-	border: solid 4px rgb(254,202,7);
+	border: solid 4px #FFBF00;
 	margin: auto;
 	padding: auto;
 
+}
+.contact
+{
+	height: 300px;
+
+}
+.a_propos
+{
+	height: 400px;
+
+}
+.loisirs
+{
+	height: 150px;
+}
+.logos
+{
+	display: flex;
+	justify-content: center;
+	color: #151515;
+
+}
+h1
+{
+	font-size: 70px;
+}
+h4
+{
+	font-size: 30px;
+
+}
+span
+{
+	color: #FFBF00;
+
+}
+em
+{
+	font-style: normal;
+	text-decoration: underline;
+	text-decoration-color: #FFBF00;
+
+}
+article
+{
+	display: flex;
+}
+
+
+
+.description
+{
+
+	align-items: center;
+	justify-content: space-between;
+	width: 70%;
+	margin: 0 8% 0 8%;
+
+}
+
+
+.formation
+{
+	height: 300px;
+}
+
+.experience
+{
+	height: 400px;
+}
+
+.recommandations
+{
+	height: 150px;
+}
+
+.surline
+{
+	border-bottom: 1px solid rgb(254,202,7);
+	margin-top: -10px;
 }
