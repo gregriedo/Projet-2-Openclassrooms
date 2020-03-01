@@ -51,15 +51,18 @@ li
 	height: 300px;
 
 }
+
 .a_propos
 {
 	height: 400px;
 
 }
+
 .loisirs
 {
 	height: 150px;
 }
+
 .logos
 {
 	display: flex;
@@ -97,12 +100,10 @@ article
 
 .description
 {
-
 	align-items: center;
 	justify-content: space-between;
 	width: 70%;
 	margin: 0 8% 0 8%;
-
 }
 
 
