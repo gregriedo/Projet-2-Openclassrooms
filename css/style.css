@@ -10,6 +10,7 @@ body
 {
 	margin: 0;
 }
+
 #bloc_page
 {
 	display: flex;
@@ -154,5 +155,5 @@ section
 {
 	padding: 0 4% 0 4%;
 	margin-left: 170px;
-	
+
 }
