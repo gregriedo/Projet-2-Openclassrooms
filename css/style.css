@@ -8,48 +8,112 @@
 
 body
 {
-	margin: 0;
+	margin: 0 0 0 0;
 }
 
-#bloc_page
-{
-	display: flex;
-	margin: auto;
-
+.container{
+	display:flex;
 }
-
-h3
-{
-		background-color: #151515;
-		color: #FFBF00;
-		text-align: center;
-}
-
-ul
-{
-		list-style-type: none;
-}
-
-
-
 .presentation
 {
-	display: flex;
-	flex-direction: column;
 	width: 30%;
 	background-color: #FFBF00;
 }
-
 .photo_profil
 {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
 	border: solid 4px #FFBF00;
-	margin: auto;
-	padding: auto;
+}
+.image{
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+.title-left
+{
+		background-color: #151515;
+		color: #FFBF00;
+		text-align: center;
+		padding: 10px;
+}
+.contact ul
+{
+		list-style-type: none;
+}
+.logos i
+{
+	width: 35px;
+	height: 35px;
+	border: 1px solid black;
+	padding: 15px;
+	border-radius: 50%;
+	text-align: center;
+}
+.logos
+{
+	text-align: center;
+}
+
+.description
+{
+
+	width: 70%;
+	margin: 0 8% 0 8%;
+}
+header
+{
+	margin: 100px 0 100px 0;
+}
+h1
+{
+	font-size: 60px;
+}
+.slogan
+{
+	font-size: 25px;
 
 }
+.surline
+{
+	border-bottom: 1px solid #FFBF00;
+	margin-top: -10px;
+}
+.surline-title
+{
+	border-bottom: 1px solid #FFBF00;
+	margin-top: -15px;
+	width: 50px;
+
+}
+.left
+{
+	width: 30%;
+}
+
+.right
+{
+	width: 70%;
+}
+.recom{
+	width: 50%;
+}
+
+
+/*
+
+
+
+
+p
+{
+	padding: 0 8% 0 8%;
+}
+
+
+
+
+
 .contact
 {
 	height: 350px;
@@ -72,30 +136,22 @@ ul
 {
 	display: flex;
 	justify-content: center;
+	padding: 0 8% 0 8%;
 	color: #151515;
+}
 
-}
-h1
-{
-	font-size: 70px;
-}
-h4
-{
-	font-size: 30px;
 
-}
+
+
+
+
+
 span
 {
 	color: #FFBF00;
 
 }
-em
-{
-	font-style: normal;
-	text-decoration: underline;
-	text-decoration-color: #FFBF00;
 
-}
 article
 {
 	display: flex;
@@ -104,6 +160,7 @@ section
 {
 	display: flex;
 }
+
 #logo
 {
 	color: #FFBF00;
@@ -116,12 +173,7 @@ section
 
 }
 
-.description
-{
 
-	width: 70%;
-	margin: 0 8% 0 8%;
-}
 
 
 .formation
@@ -140,20 +192,7 @@ section
 	height: 150px;
 }
 
-.surline
-{
-	border-bottom: 1px solid #FFBF00;
-	margin-top: -10px;
-}
 
-.left
-{
-	padding: 0 4% 0 4%;
-}
 
-.right
-{
-	padding: 0 4% 0 4%;
-	margin-left: 170px;
 
 }
