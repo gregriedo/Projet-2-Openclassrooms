@@ -1,11 +1,3 @@
-@font-face
-{
-		font-family: "go";
-	  src: url(GO-Mono.ttf);
-
-}
-
-
 body
 {
 	margin: 0 0 0 0;
@@ -152,24 +144,12 @@ span
 
 }
 
-article
-{
-	display: flex;
-}
-section
-{
-	display: flex;
-}
+
 
 #logo
 {
 	color: #FFBF00;
 	padding: 0 8% 0 0;
-
-}
-.bloc
-{
-	display: flex;
 
 }
 
