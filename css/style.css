@@ -3,9 +3,12 @@ body
 	margin: 0 0 0 0;
 }
 
-.container{
+.bloc_container
+{
 	display:flex;
 }
+/* Partie de gauche */
+
 .presentation
 {
 	width: 30%;
@@ -18,7 +21,8 @@ body
 	border-radius: 50%;
 	border: solid 4px #FFBF00;
 }
-.image{
+.image
+{
 	text-align: center;
 	margin: 20px 0 20px 0;
 }
@@ -33,6 +37,14 @@ body
 {
 		list-style-type: none;
 }
+.liste
+{
+	margin-bottom: 5%;
+}
+.paragraphe_left
+{
+	padding: 5% 8% 5% 8%;
+}
 .logos i
 {
 	width: 35px;
@@ -46,6 +58,26 @@ body
 {
 	text-align: center;
 }
+.contact
+{
+	height: 350px;
+
+}
+
+.a_propos
+{
+	height: 450px;
+
+
+}
+
+.loisirs
+{
+	height: 150px;
+}
+
+
+/* Partie de Droite */
 
 .description
 {
@@ -55,14 +87,23 @@ body
 }
 header
 {
-	margin: 100px 0 100px 0;
+	margin: 80px 0 70px 0;
 }
 h1
 {
 	font-size: 60px;
+	font-family: "Arial Black", Arial, Impact, sans-serif;
 }
+.colore
+{
+	color: #FFBF00;
+
+
+}
+
 .slogan
 {
+	
 	font-size: 25px;
 
 }
@@ -87,75 +128,10 @@ h1
 {
 	width: 70%;
 }
-.recom{
+.recom
+{
 	width: 50%;
 }
-
-
-/*
-
-
-
-
-p
-{
-	padding: 0 8% 0 8%;
-}
-
-
-
-
-
-.contact
-{
-	height: 350px;
-
-}
-
-.a_propos
-{
-	height: 450px;
-
-
-}
-
-.loisirs
-{
-	height: 100px;
-}
-
-.logos
-{
-	display: flex;
-	justify-content: center;
-	padding: 0 8% 0 8%;
-	color: #151515;
-}
-
-
-
-
-
-
-
-span
-{
-	color: #FFBF00;
-
-}
-
-
-
-#logo
-{
-	color: #FFBF00;
-	padding: 0 8% 0 0;
-
-}
-
-
-
-
 .formation
 {
 	height: 300px;
@@ -172,7 +148,9 @@ span
 	height: 150px;
 }
 
-
-
+#logos
+{
+	color: #FFBF00;
+	padding: 0 8% 0 0;
 
 }
