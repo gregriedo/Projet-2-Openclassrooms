@@ -87,12 +87,13 @@ body
 }
 header
 {
-	margin: 50px 0 10px 0;
+	margin: 90px 0 40px 0;
+	line-height: 25px;
 }
 h1
 {
 	font-size: 60px;
-	font-family: "Arial Black", Arial, Impact, sans-serif;
+	font-family: Arial,"Arial Black", Impact, sans-serif;
 }
 .colore
 {
@@ -101,25 +102,27 @@ h1
 
 .slogan
 {
-	padding: 0 0 0 0;
 	font-size: 25px;
-
+	font-family: Impact,"Arial Black",Arial, sans-serif;
 }
+
+
 .surline
 {
 	border-bottom: 1px solid #FFBF00;
 	margin-top: -10px;
 }
+
 .surline-title
 {
-	border-bottom: 1px solid #FFBF00;
-	margin-top: -15px;
-	width: 50px;
+	border-bottom: 2px solid #FFBF00;
+	margin-top: -20px;
+	width: 55px;
 
 }
 .left
 {
-	padding: 2% 0 2% 5%;
+	padding: 2% 0 2% 0;
 	width: 30%;
 }
 
@@ -151,17 +154,21 @@ h1
 	padding: 2% 0 2% 0;
 	height: 150px;
 }
+
+/* Pastilles de couleur devant les dates */
 .cercle
 {
 	font-size: .75em;
 	color: #FFBF00;
 	float: left;
-	padding: 4% 8% 0 0;
+	padding: 4% 8% 4% 2%;
 }
+
+/* Logos devant les principaux titres */
 .logo_droite
 {
 	color: #FFBF00;
 	float: left;
-	padding: 0 8% 0 0;
+	padding: 0 5% 0 0;
 
 }
