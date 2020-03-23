@@ -1,11 +1,17 @@
 body
 {
-	margin: 0 0 0 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.bloc_container1
+{
+	display:flex;
 }
 
 .bloc_container
 {
-	display:flex;
+	display: flex;
 }
 /* Partie de gauche */
 
@@ -13,6 +19,7 @@ body
 {
 	width: 30%;
 	background-color: #FFBF00;
+
 }
 .photo_profil
 {
@@ -21,11 +28,11 @@ body
 	border-radius: 50%;
 	border: solid 4px #FFBF00;
 }
-.image
+h3
 {
-	text-align: center;
-	margin: 20px 0 20px 0;
+	margin: 0;
 }
+
 .title-left
 {
 		background-color: #151515;
@@ -57,23 +64,34 @@ body
 .logos
 {
 	text-align: center;
+	padding: 10% 0 2% 0;
 }
+
+.image
+{
+	height: 15%;
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+
 .contact
 {
-	height: 350px;
+	height: 30%;
 
 }
 
 .a_propos
 {
-	height: 450px;
 
+	height: 45%;
+	text-align: justify;
 
 }
 
 .loisirs
 {
-	height: 150px;
+	height: 13%;
+	background-color: #FFBF00;
 }
 
 
@@ -85,16 +103,26 @@ body
 	width: 70%;
 	margin: 0 8% 0 8%;
 }
+.xs{
+	display:none;
+}
 header
 {
 	margin: 90px 0 40px 0;
-	line-height: 25px;
+	line-height: 20px;
 }
 h1
 {
 	font-size: 60px;
-	font-family: Arial,"Arial Black", Impact, sans-serif;
 }
+.mp
+{
+	display: none;
+	width: 70%;
+	margin: 0;
+
+}
+
 .colore
 {
 	color: #FFBF00;
@@ -103,7 +131,6 @@ h1
 .slogan
 {
 	font-size: 25px;
-	font-family: Impact,"Arial Black",Arial, sans-serif;
 }
 
 
@@ -122,14 +149,17 @@ h1
 }
 .left
 {
-	padding: 2% 0 2% 0;
+	text-align: justify;
+	padding: 2% 10% 2% 0;
 	width: 30%;
 }
 
 .right
 {
+	text-align: justify;
 	padding: 2% 5% 2% 0;
 	width: 70%;
+
 }
 .recom
 {
@@ -139,20 +169,20 @@ h1
 .formation
 {
 	padding: 2% 0 2% 0;
-	height: 300px;
+	height: 30%;
 }
 
 .experience
 {
-	padding: 10% 0 2% 0;
-	height: 400px;
+	padding: 2% 0 2% 0;
+	height: 45%;
 
 }
 
 .recommandations
 {
 	padding: 2% 0 2% 0;
-	height: 150px;
+	height: 15%;
 }
 
 /* Pastilles de couleur devant les dates */
@@ -170,5 +200,160 @@ h1
 	color: #FFBF00;
 	float: left;
 	padding: 0 5% 0 0;
+
+}
+
+/* Responsive Design pour les smartphones */
+
+@media all and (max-width: 980px)
+{
+	/* Toute la page */
+	#bloc_page
+	{
+		width: auto;
+		height: auto;
+		display: flex;
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+
+/* Partie de gauche */
+
+	.presentation
+	{
+		width: auto;
+		height: auto;
+	}
+	.logos
+	{
+		padding: 2% 0 2% 0;
+
+
+	}
+
+	.xs
+	{
+		display: block;
+	}
+	.lg
+	{
+		display:none;
+
+	}
+/* Partie de droite */
+	.description
+	{
+		width: auto;
+		height: auto;
+		margin: 0;
+	}
+	.surline-title
+	{
+		border-bottom: 0;
+		margin-top: 0;
+		width: 0;
+
+	}
+	.dev
+	{
+		border-bottom: 2px solid #FFBF00;
+		margin-top: -10px;
+		align-items: center;
+	}
+
+	.bloc_container
+	{
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.left
+	{
+		width: auto;
+
+	}
+	.right
+	{
+		width: auto;
+		text-align: center;
+	}
+	.recom
+	{
+		width: auto;
+		margin-left: 2%;
+		text-align: center;
+	}
+
+
+
+
+
+
+}
+
+/* Responsive Design pour les tablettes */
+
+@media all and (min-width: 980px) and (max-width: 1280px)
+{
+/* Toute la page */
+	#bloc_page
+	{
+		width: auto;
+		height: auto;
+
+		flex-direction: row;
+	}
+
+	/* Partie de gauche */
+	.presentation
+	{
+		width: 50%;
+		height: auto;
+		margin: 0;
+
+
+	}
+	.logos
+	{
+		padding: 5% 0 5% 0;
+
+	}
+
+	.description
+	{
+		width: 50%;
+		height: auto;
+		margin: 0;
+
+	}
+
+	/* Partie de Droite */
+
+	header
+	{
+		padding-left: 10%;
+	}
+	.title-section
+	{
+		text-align: center;
+	}
+
+ .bloc_container
+ {
+	 padding: 2%;
+ }
+ .left
+ {
+	 padding-left: 2%;
+	 text-align: center;
+ }
+
+ .recom
+ {
+	 display: flex;
+	 flex-direction: column;
+	 padding: 2%;
+  }
+
+
 
 }
