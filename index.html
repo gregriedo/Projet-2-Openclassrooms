@@ -2,21 +2,23 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Le cv de Grégory">
-		<meta name="keywords" content="Developpement web, HTML, CSS, javascript">
-		<meta name="author" content="Grégory Riedo">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<meta name="description" content="Le cv de Grégory"/>
+		<meta name="keywords" content="Developpement web, HTML, CSS, javascript"/>
+		<meta name="author" content="Grégory Riedo"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/> <!-- Code CSS pour tout le monde -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
 		<script src="https://kit.fontawesome.com/7f5c6f8a18.js" crossorigin="anonymous"></script>
 		<title>Grégory Riedo Développeur Web Junior</title>
 	</head>
 
 	<body>
-		<div class="bloc_container"><!-- Bloc permettant de mettre en forme la page -->
+
+		<div class="bloc_container1" id="bloc_page"> <!-- Bloc permettant de mettre en forme la page -->
 
 			<!-- Partie de gauche -->
 			<div class="presentation">
-				<div class="image">
+				<div class="image lg"> <!-- "lg" pour le responsive mobile -->
 					<img src="images/photo_profil.jpg" class="photo_profil" alt="Photo de Profil"/>
 				</div>
 				<div class="contact">
@@ -63,19 +65,23 @@
 
 			<div class="description">
 				<header>
+					<div class="image xs"> <!-- "xs" pour le responsive mobile -->
+						<img src="images/photo_profil.jpg" class="photo_profil" alt="Photo de Profil"/>
+					</div>
 					<h1><span class="colore">Grégory</span> Riedo</h1>
 					<p class="slogan"><span class="dev">Dével</span>oppeur Web freelance</p>
 					<div class="surline-title"></div>
 				</header>
+
 				<section>
 					<div class="formation">
 						<h2 class="title-section">
-							<div class="logo_droite">
+							<span class="logo_droite">
 								<i class="fas fa-graduation-cap"></i>
-							</div>
-								FORMATION</h2>
+							</span>
+							FORMATION</h2>
 						<div class="surline"></div>
-						<article class="bloc_container">
+						<div class="bloc_container">
 							<div class="left">
 									<div class="cercle">
 										<p>
@@ -90,13 +96,17 @@
 							</div>
 							<div class="right">
 								<p>
-									<strong>OPENCLASSROOMS</strong><br />
-									 Développeur Web <br />
+									<strong>OPENCLASSROOMS</strong>
+								</p>
+								<p>
+									 Développeur Web
+								</p>
+								<p>
 									 Connaissance dans le langage HTML5 CSS3
 								</p>
 							</div>
-						</article>
-						<article class="bloc_container">
+						</div>
+						<div class="bloc_container">
 							<div class="left">
 									<div class="cercle">
 										<p>
@@ -110,22 +120,24 @@
 							</div>
 							<div class="right">
 								<p>
-									<strong>UNIVERSITE LYON 2</strong><br />
+									<strong>UNIVERSITE LYON 2</strong>
+								</p>
+								<p>
 									Licence en Histoire de l'art
 								</p>
 							</div>
-						</article>
+						</div>
 					</div>
 				 </section>
 				 <section>
 					 <div class="experience">
 					  <h2 class="title-section">
-							<div class="logo_droite">
+							<span class="logo_droite">
 								<i class="fas fa-briefcase"></i>
-							</div>
+							</span>
 							EXPERIENCE PROFESSIONELLE</h2>
 						<div class="surline"></div>
-				   		<article class="bloc_container">
+				   		<div class="bloc_container">
 						  	<div class="left">
 										<div class="cercle">
 											<p>
@@ -139,13 +151,17 @@
 						  	</div>
 						  	<div class="right">
 							 		<p>
-										<strong>MIGROS FRANCE</strong><br />
-										Vendeur saisonnier rayon Jardin, Bricolage et Jouets<br />
+										<strong>MIGROS FRANCE</strong>
+									</p>
+									<p>
+										Vendeur saisonnier rayon Jardin, Bricolage et Jouets
+									</p>
+									<p>
 										Mise en rayon des produits, conseil aux clients, entretien de l'espace de travail
 									</p>
 						  	</div>
-							</article>
-							<article class="bloc_container">
+							</div>
+							<div class="bloc_container">
 						  	<div class="left">
 										<div class="cercle">
 											<p>
@@ -159,42 +175,58 @@
 						  	</div>
 						  	<div class="right">
 						   		<p>
-										<strong>BOTANIC LES JARDINS DU JURA</strong><br />
-										Vendeur Expert Décoration Extérieure et Jardin Aquatique<br />
+										<strong>BOTANIC LES JARDINS DU JURA</strong>
+									</p>
+									<p>
+										Vendeur Expert Décoration Extérieure et Jardin Aquatique
+									</p>
+									<p>
 										Gestion des stocks, Commandes auprès des fournisseurs, Conseil aux clients et suivi de l'entretien de leur bassin<br />
 										Soin des carpes Koïs
 						   		</p>
 						  	</div>
-					  	</article>
+					  	</div>
 					 </div>
 					</section>
 
 					<footer>
 						<div class="recommandations">
 							<h2 class="title-section">
-								<div class="logo_droite">
+								<span class="logo_droite">
 									<i class="fas fa-pencil-alt"></i>
-								</div>
+								</span>
 									RECOMMANDATIONS</h2>
 							<div class="surline"></div>
-						 		<section class="bloc_container">
+						 		<div class="bloc_container">
 							 		<div class="recom">
 										<p>
-											<strong>Richard Ngu Leubou</strong><br />
-											Mentor chez OPENCLASSROOMS<br />
-											Téléphone : <br />
-											Email : godleubourichard@yahoo.fr<br />
+											<strong>Richard Ngu Leubou</strong>
+										</p>
+										<p>
+											Mentor chez OPENCLASSROOMS
+										</p>
+										<p>
+											Téléphone : XX XX XX XX XX
+										</p>
+										<p>
+											Email : godleubourichard@yahoo.fr
 										</p>
 									</div>
 									<div class="recom">
 										<p>
-											<strong>Menting Claudia</strong><br />
-											Developpeur Freelance<br />
-											Téléphone : 00 00 00 00 00<br />
-											Email	: claudia.M@gmail.com<br />
+											<strong>Menting Claudia</strong>
+										</p>
+										<p>
+											Developpeuse Freelance
+										</p>
+										<p>
+											Téléphone : 00 00 00 00 00
+										</p>
+										<p>
+											Email	: claudia.M@gmail.com
 										</p>
 									</div>
-								</section>
+								</div>
 						</div>
 					</footer>
 			</div>
