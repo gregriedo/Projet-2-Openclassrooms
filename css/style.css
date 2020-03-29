@@ -45,14 +45,11 @@ h3
 		text-align: center;
 		padding: 10px;
 }
-.contact ul
+.contact1
 {
-		list-style-type: none;
+		padding: 5% 8% 5% 8%;
 }
-.liste
-{
-	margin-bottom: 5%;
-}
+
 .paragraphe_left
 {
 	padding: 5% 8% 5% 8%;
@@ -99,6 +96,7 @@ h3
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	padding-bottom: 5%;
 
 }
 
@@ -176,13 +174,13 @@ h1
 }
 .formation
 {
-	padding: 10% 0 10% 0;
+	padding: 10% 0 5% 0;
 	height: 30%;
 }
 
 .experience
 {
-	padding: 10% 0 2% 0;
+	padding: 5% 0 2% 0;
 
 
 }
@@ -237,12 +235,11 @@ h1
 	}
 	.logos
 	{
-		padding: 2% 0 2% 0;
+		padding: 5% 0 2% 0;
 	}
-	li
+	.contact
 	{
 		text-align: center;
-
 	}
 
 	.xs
@@ -257,6 +254,7 @@ h1
 	.loisirs
 	{
 		position: inherit;
+
 
 	}
 /* Partie de droite */
@@ -350,10 +348,7 @@ h1
 		padding: 5% 0 5% 0;
 
 	}
-	.loisirs
-	{
 
-	}
 
 
 
@@ -368,7 +363,7 @@ h1
 
 	header
 	{
-		padding-left: 10%;
+		padding-left: 5%;
 	}
 	.title-section
 	{
@@ -387,10 +382,11 @@ h1
 
  .recom
  {
-	 display: flex;
-	 flex-direction: column;
-	 padding: 2%;
-  }
+	 width: auto;
+	 margin-left: 2%;
+	 text-align: center;
+
+ }
 
 
 
