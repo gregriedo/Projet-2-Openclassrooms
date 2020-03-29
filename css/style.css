@@ -58,6 +58,7 @@ h3
 	height: 35px;
 	border: 1px solid black;
 	padding: 15px;
+	margin: 0 5% 0 5%;
 	border-radius: 50%;
 	text-align: center;
 }
@@ -65,6 +66,7 @@ h3
 {
 	text-align: center;
 	padding: 10% 0 2% 0;
+
 }
 
 .image
@@ -77,6 +79,7 @@ h3
 .contact
 {
 	height: 30%;
+	padding-bottom: 2%;
 
 }
 
@@ -214,7 +217,7 @@ h1
 		height: auto;
 		display: flex;
 		flex-direction: column-reverse;
-		text-align: center;
+
 	}
 
 /* Partie de gauche */
@@ -223,12 +226,16 @@ h1
 	{
 		width: auto;
 		height: auto;
+		text-align: center;
+
 	}
 	.logos
 	{
 		padding: 2% 0 2% 0;
-
-
+	}
+	ul
+	{
+		margin: 2% 2% 0 2%;
 	}
 
 	.xs
@@ -246,6 +253,7 @@ h1
 		width: auto;
 		height: auto;
 		margin: 0;
+		text-align: center;
 	}
 	.surline-title
 	{
@@ -266,9 +274,18 @@ h1
 		flex-direction: column;
 		justify-content: space-between;
 	}
+	.logo_droite
+	{
+		display: none;
+	}
+	.cercle
+	{
+		display: none;
+	}
 	.left
 	{
 		width: auto;
+		text-align: center;
 
 	}
 	.right
@@ -311,6 +328,7 @@ h1
 		margin: 0;
 
 
+
 	}
 	.logos
 	{
@@ -318,15 +336,16 @@ h1
 
 	}
 
+
+
+	/* Partie de Droite */
 	.description
 	{
 		width: 50%;
 		height: auto;
-		margin: 0;
+		margin: 0 8% 0 8%;
 
 	}
-
-	/* Partie de Droite */
 
 	header
 	{
