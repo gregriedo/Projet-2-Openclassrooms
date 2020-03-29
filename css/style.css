@@ -1,7 +1,10 @@
+/* Page entière */
+
 body
 {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
+
 }
 
 .bloc_container1
@@ -13,12 +16,14 @@ body
 {
 	display: flex;
 }
+
 /* Partie de gauche */
 
 .presentation
 {
 	width: 30%;
 	background-color: #FFBF00;
+	position:relative;
 
 }
 .photo_profil
@@ -52,6 +57,7 @@ h3
 {
 	padding: 5% 8% 5% 8%;
 }
+
 .logos i
 {
 	width: 35px;
@@ -62,7 +68,8 @@ h3
 	border-radius: 50%;
 	text-align: center;
 }
-.logos
+
+ .logos
 {
 	text-align: center;
 	padding: 10% 0 2% 0;
@@ -78,23 +85,21 @@ h3
 
 .contact
 {
-	height: 30%;
-	padding-bottom: 2%;
 
 }
 
 .a_propos
 {
-
-	height: 45%;
 	text-align: justify;
-
 }
 
 .loisirs
 {
-	height: 13%;
 	background-color: #FFBF00;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
 }
 
 
@@ -171,21 +176,21 @@ h1
 }
 .formation
 {
-	padding: 2% 0 2% 0;
+	padding: 10% 0 10% 0;
 	height: 30%;
 }
 
 .experience
 {
-	padding: 2% 0 2% 0;
-	height: 45%;
+	padding: 10% 0 2% 0;
+
 
 }
 
 .recommandations
 {
 	padding: 2% 0 2% 0;
-	height: 15%;
+	height: 13%;
 }
 
 /* Pastilles de couleur devant les dates */
@@ -217,7 +222,8 @@ h1
 		height: auto;
 		display: flex;
 		flex-direction: column-reverse;
-
+		justify-content: center;
+		align-items: center;
 	}
 
 /* Partie de gauche */
@@ -233,9 +239,10 @@ h1
 	{
 		padding: 2% 0 2% 0;
 	}
-	ul
+	li
 	{
-		margin: 2% 2% 0 2%;
+		text-align: center;
+
 	}
 
 	.xs
@@ -245,6 +252,11 @@ h1
 	.lg
 	{
 		display:none;
+
+	}
+	.loisirs
+	{
+		position: inherit;
 
 	}
 /* Partie de droite */
@@ -281,11 +293,14 @@ h1
 	.cercle
 	{
 		display: none;
+
 	}
 	.left
 	{
 		width: auto;
 		text-align: center;
+		font-weight: bold;
+		color: #FFBF00
 
 	}
 	.right
@@ -333,6 +348,10 @@ h1
 	.logos
 	{
 		padding: 5% 0 5% 0;
+
+	}
+	.loisirs
+	{
 
 	}
 
