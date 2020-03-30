@@ -209,7 +209,7 @@ h1
 
 /* Responsive Design pour les smartphones */
 
-@media all and (max-width: 980px)
+@media all and (max-width: 800px)
 {
 	/* Toute la page */
 	#bloc_page
@@ -262,6 +262,12 @@ h1
 		height: auto;
 		margin: 0;
 		text-align: center;
+	}
+	header
+	{
+		width: auto;
+		line-height: normal;
+
 	}
 	.surline-title
 	{
@@ -320,7 +326,7 @@ h1
 
 /* Responsive Design pour les tablettes */
 
-@media all and (min-width: 980px) and (max-width: 1280px)
+@media all and (min-width: 800px) and (max-width: 1280px)
 {
 /* Toute la page */
 	#bloc_page
@@ -351,6 +357,7 @@ h1
 
 
 	/* Partie de Droite */
+
 	.description
 	{
 		width: 50%;
@@ -361,7 +368,8 @@ h1
 
 	header
 	{
-		padding-left: 5%;
+		width: auto;
+		line-height: normal;
 	}
 	.title-section
 	{
